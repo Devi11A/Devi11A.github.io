@@ -1,4 +1,24 @@
 #head {
-text-align:center;
-color:#e81c82;
+	position:absolute;
+	top:20%;
+	left:30%;
+	text-align:center;
+	color:#f56f42;
+	font-family:Georgia, serif;
+}
+
+.top {
+	position:relative;
+	font-size:200%;
+}
+
+#banner {
+	width:100vw;
+	height:50vh;
+}
+
+.content {
+	font-family:Arial, san-serif;
+	padding-left:5%;
+	padding-right:5%;
 }
