@@ -5,8 +5,11 @@
 <title>11A Devi Academy</title>
 </head>
 <link rel="stylesheet" href="styles.css">
-<script src="randstd.js"></script>
 <body>
+<ul id="nav">
+  <li><a href="#" class="nelem" id="active">Home</a></li>
+  <li><a href="#" class="nelem">Student</a></li>
+</ul>
 <div class="top">
 <h1 id="head">11A 2022-2023</h1>
 <img src="img\devi.jpeg" id="banner">
@@ -16,7 +19,9 @@
 We are the students of 11A. (Batch 2022-2023). We took Computer Science stream so this is purely handcrafted website.<br>
 For now this website is nothing.
 </p>
-<p><i>Lucky Person Of The Instance:</i><b id="randstd"></b></p>
+<p id="randstd"></p>
+<!--Remember DOM element should always contain its script tag below the place modifying-->
+<script src="randstd.js"></script>
 </div>
 </body>
 </html>
